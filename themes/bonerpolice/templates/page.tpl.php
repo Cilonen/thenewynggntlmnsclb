@@ -6,7 +6,6 @@
 
     <?php if ($logo): ?>
       <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
-        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/>
       </a>
     <?php endif; ?>
 
@@ -97,7 +96,7 @@
         <?php print render($page['sidebar_first']); ?>
       </aside>
     <?php endif; ?> <!-- /sidebar-first -->
-    
+
     <?php if ($page['sidebar_second']): ?>
       <aside id="sidebar-second" class="column sidebar second">
         <?php print render($page['sidebar_second']); ?>

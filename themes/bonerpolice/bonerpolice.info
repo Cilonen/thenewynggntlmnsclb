@@ -34,6 +34,8 @@ stylesheets[print][] = css/print.css
 
 ; Scripts
 scripts[] = js/modernizr.js
+scripts[] = js/jquery.bxslider/jquery.bxslider.min.js
+scripts[] = js/scripts.js
 
 settings[bonerpolice_tabs] = 1
 settings[bonerpolice_breadcrumb] = 1

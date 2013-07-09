@@ -6,3 +6,43 @@
 
 // Import variables and mixins to be used.
 @import _config.sass
+
+*
+  transition: all 0.5s
+  box-sizing: border-box
+#logo
+  background: url(images/logo.svg) no-repeat 0 0
+  background-size: 900px
+  display: inline-block
+  width: 900px
+  height: 300px
+  cursor: pointer
+.view-audio
+  padding: 90px 60px 42px
+  background: url(images/logo.svg) no-repeat center 15px
+  background-size: 180px
+  .background-cover
+    background-size: cover
+    position: relative
+    .cover
+      img
+        width: 25%
+        position: absolute
+        bottom: 20px
+        left: 20px
+    .title-wrapper
+      position: absolute
+      left: 30%
+      bottom: 20px
+      h3.date-recorded
+        font-size: 30px
+        font-weight: 100
+        color: #fff
+        margin-bottom: 0
+      h2.title
+        margin-bottom: 0
+        font-size: 36px
+        line-height: 30px
+        a:link, a:visited
+          font-weight: 100
+          color: #fff

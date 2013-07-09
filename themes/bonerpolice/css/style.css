@@ -156,6 +156,47 @@ div.status {
   box-sizing: border-box; }
 
 * {
+  transition: all 0.5s;
+  box-sizing: border-box; }
+
+#logo {
+  background: url(images/logo.svg) no-repeat 0 0;
+  background-size: 900px;
+  display: inline-block;
+  width: 900px;
+  height: 300px;
+  cursor: pointer; }
+
+.view-audio {
+  padding: 90px 60px 42px;
+  background: url(images/logo.svg) no-repeat center 15px;
+  background-size: 180px; }
+  .view-audio .background-cover {
+    background-size: cover;
+    position: relative; }
+    .view-audio .background-cover .cover img {
+      width: 25%;
+      position: absolute;
+      bottom: 20px;
+      left: 20px; }
+    .view-audio .background-cover .title-wrapper {
+      position: absolute;
+      left: 30%;
+      bottom: 20px; }
+      .view-audio .background-cover .title-wrapper h3.date-recorded {
+        font-size: 30px;
+        font-weight: 100;
+        color: white;
+        margin-bottom: 0; }
+      .view-audio .background-cover .title-wrapper h2.title {
+        margin-bottom: 0;
+        font-size: 36px;
+        line-height: 30px; }
+        .view-audio .background-cover .title-wrapper h2.title a:link, .view-audio .background-cover .title-wrapper h2.title a:visited {
+          font-weight: 100;
+          color: white; }
+
+* {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
