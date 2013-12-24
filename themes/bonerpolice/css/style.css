@@ -196,6 +196,14 @@ div.status {
           font-weight: 100;
           color: white; }
 
+.not-front #header {
+  text-align: center; }
+  .not-front #header #logo {
+    background-size: 180px;
+    width: 180px;
+    height: 60px;
+    display: inline-block; }
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
